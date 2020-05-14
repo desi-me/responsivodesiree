@@ -1,0 +1,89 @@
+/* reseting do css */
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+    background-image: url('https://image.freepik.com/vetores-gratis/marrom-gradiente-fundo-desenho_1164-861.jpg');
+    background-size: auto 196vh;
+    height: 100vh;
+    font-family: sans-serif;
+    font-size: 10px;
+     }
+
+/*se a tela tiver pelo menos 400px vai carregar estes estilos*/
+@media (min-width: 400px){
+  body {
+    font-size: 14px;
+  }
+
+/* breakpoint*/  
+  @media (min-width: 600px){
+    body {
+      font-size: 18px;
+    }
+  
+}
+
+  header {
+       height: 50vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+    
+    .menu {
+      background-color: saddlebrown;
+      position: fixed;
+      width: 100vw;
+      top: 20px;
+  }
+  .menu a{
+    display: block;
+    padding: 10px 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: sandybrown;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style:none;
+  }
+  .site-title{
+    font-family: serif;
+    font-weight: 800;
+    text-align: center;
+    color: sienna; 
+  }
+  
+  .site-subtitle {
+    text-align: center;
+    color:sienna;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 400;
+  } 
+
+  /*.site-subtitle {
+    font: 34px monospace, cursive;
+    white-space: nowrap;
+    margin: 0 auto;
+    font-weight: 100;
+    color: sienna;
+    text-align: center;
+    text-shadow: 1px 1px 1px darkred;
+  }*/
+  .img-portfolio {
+    height: 120px;
+    width: 120px;
+  }
